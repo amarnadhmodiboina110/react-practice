@@ -76,6 +76,9 @@ import ListComponent from "./components/list/list-component"
 import UnOrder from "./components/list/unorder"
 import TableComponent from "./components/table/table-component"
 import FormComponent from "./components/form/form-component"
+import { TodoList } from "./components/todo/todo-list"
+import { Greeting } from "./components/greeting/greeting"
+import BootstrapLayout from "./components/bootstrap/firstcomponent"
 
 
 
@@ -92,6 +95,12 @@ function App() {
         <UnOrder></UnOrder>
         <TableComponent></TableComponent>
         <FormComponent></FormComponent>
+        <TodoList></TodoList>
+        <Greeting></Greeting>
+        <BootstrapLayout/>
+        
+
+        
 
       
 
